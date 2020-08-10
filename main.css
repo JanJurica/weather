@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color:#000000;
+    background-color: #80ced6;
+}
+p
+{
+    padding: 0;
+    margin: 0;
+}
+#actual
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #80ced6; 
+}
+.location
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 20em;
+}
+.temperature
+{
+    width: 50%;
+    float: left;
+    height: 20em;
+    opacity: .5;
+}
+.temp
+{
+    text-align: center;
+    padding: 1vh 1vw;
+    height: 32vh;
+    width: 20vw;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: .5em;
+    position: relative;
+}
+.loc
+{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.position
+{
+    padding: 1vh 1vw;
+    margin: auto;
+    margin-top: 12vh;
+    height: auto;
+    text-align: right;
+    width: 25vw;
+    color:#000000;
+}
+h2
+{
+    
+    text-align: center;
+    padding-top: 0;
+}
+.teplota
+{
+    font-size: 5em;
+    padding: 0;
+}
+.mesto
+{
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.zeme
+{
+    font-size: 1.5em;
+}
+#nextdays
+{
+    background-color: black;
+    width: 100%;
+    height: 5em;
+    bottom: 0;
+    text-align: center;
+    display: none;
+}
+#nextdays ul li
+{
+    display: inline-block;
+    text-align: center;
+}
+footer
+{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 18px;
+    font-weight: bold;
+}
+#ostatnidny
+{
+    width: 100%;
+    height: auto;
+    padding: 1em 0px;
+    background-color:  #80ced6;
+    text-align: center;
+}
+#ostatnidny .dny li
+{
+    width: 8em;
+    height: 6em;
+    background-color: none;
+    text-align: center;
+    display: inline-block;
+    margin: 1em 2em;
+}
+#hledat
+{
+    text-align: center;
+    padding-top: 1em;
+}
+button
+{
+    background-color: #80ced6;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 5px;
+    font-size: 14px;
+}
+#mesto
+{
+    background-color: #80ced6;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="actual">
+        <div id="hledat">
+            <input type="text" id="mesto" placeholder="find city">
+            <button onclick="najdimesto()">SEARCH</button>
+        </div>
+    <div class="name"></div>
+    <div class="location">
+    <div class="position">
+        <p class="loc">Current position</p><br>
+        <p class="mesto"></p>
+    </div>
+    </div>
+    <div class="temperature">
+    <div class="temp">
+        <p class="teplota"></p>
+        <p class="oblacnost"></p>
+        <p class="vlhkost"></p>    
+        <p class="vitr"></p>
+        <p class="pocasi"></p>
+    </div>
+    </div>
+    </div>
+    <div id="ostatnidny">
+        <ul class="dny">
+            <li class="prvni"></li>
+            <li class="druhy"></li>
+            <li class="treti"></li>
+            <li class="ctvrty"></li>
+            <li class="paty"></li>
+        </ul>
+    </div>
+</body>
+</html>
